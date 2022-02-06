@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1024, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/skills-page-desktop.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+      <title>GL.</title>
+  </head>
+  <body style="margin: 0; background: #2f303a">
+    <input type="hidden" id="anPageName" name="page" value="skills-page-desktop" />
+    <div class="container-center-horizontal">
+      <div class="skills-page-desktop screen">
+        <div class="orange-gVa32i border-5px-west-side"></div>
+        <a href="homepage-desktop.html"
+          ><div class="back-to-homepage-gVa32i montserrat-medium-outer-space-18px animate-enter26">
+            Back to Homepage
+          </div> </a
+        ><a href="about-page-desktop.html"
+          ><div class="about-gVa32i montserrat-medium-outer-space-36px animate-enter27">About</div>
+        </a>
+        <div class="skills-gVa32i montserrat-medium-outer-space-36px animate-enter28">Skills</div>
+        <a href="works-page-desktop.html"
+          ><div class="works-gVa32i valign-text-middle montserrat-medium-outer-space-36px animate-enter29">
+            Works
+          </div> </a
+        ><a href="contact-page-desktop.html"
+          ><div class="contact-gVa32i montserrat-medium-outer-space-36px animate-enter30">Contact</div>
+        </a>
+        <div class="rectangle-3-gVa32i animate-enter31"></div>
+        <div class="skills-title-gVa32i montserrat-normal-white-48px animate-enter32">Skills</div>
+        <img
+          class="e7e849e22895883131d8-gVa32i"
+          src="img/e7e849e22895883131d800c9df5fd0a3e7af1ec04173920146efc5053222e89f@2x.png"
+        />
+        <img class="line-gVa32i" src="img/line@2x.svg" />
+        <div class="technical-title-gVa32i valign-text-middle montserrat-normal-white-32px animate-enter33">
+          Technical
+        </div>
+        <div class="soft-title-gVa32i montserrat-normal-white-32px animate-enter34">Soft</div>
+        <div class="game-dev-icon-gVa32i animate-enter36">
+          <img class="icons8-unity-500-1-QbspXf" src="img/icons8-unity-500-1@2x.png" />
+          <img class="icons8-c-sharp-logo-500-1-QbspXf" src="img/icons8-c-sharp-logo-500-1@2x.png" />
+          <div class="game-dev-QbspXf montserrat-normal-white-24px animate-enter35">Game Dev</div>
+        </div>
+        <div class="web-dev-icon-gVa32i animate-enter38">
+          <img class="icons8-html-file-512-1-Mmp0It" src="img/icons8-html-file-512-1@2x.png" />
+          <img class="icons8-css-file-512-1-Mmp0It" src="img/icons8-css-file-512-1@2x.png" />
+          <div class="web-dev-Mmp0It montserrat-normal-white-24px animate-enter37">Web Dev</div>
+        </div>
+        <div class="prog-lang-icon-gVa32i animate-enter40">
+          <div class="prog-lang-WO0wK8 montserrat-normal-white-24px animate-enter39">Programming Languages</div>
+          <img class="icons8-java-512-1-WO0wK8" src="img/icons8-java-512-1@2x.png" />
+          <img class="icons8-python-500-1-WO0wK8" src="img/icons8-python-500-1@2x.png" />
+        </div>
+        <div class="content-writing-icon-gVa32i animate-enter42">
+          <div class="cont-writ-p5Ka4F montserrat-normal-white-24px animate-enter41">Content<br />Writing</div>
+          <img class="icons8-content-512-1-p5Ka4F" src="img/icons8-content-512-1@2x.png" />
+        </div>
+        <div class="public-speaking-icon-gVa32i animate-enter44">
+          <div class="pub-rit-6qss3X montserrat-normal-white-24px animate-enter43">Public<br />Speaking</div>
+          <img class="icons8-public-speaking-90-1-1-6qss3X" src="img/icons8-public-speaking-90--1--1@2x.png" />
+        </div>
+        <div class="music-icon-gVa32i animate-enter46">
+          <div class="music-ClmWmS montserrat-normal-white-24px animate-enter45">Music</div>
+          <img class="icons8-guitar-240-1-ClmWmS" src="img/icons8-guitar-240-1@2x.png" />
+          <img class="icons8-singing-256-1-1-ClmWmS" src="img/icons8-singing-256--1--1@2x.png" />
+        </div>
+        <div class="creative-design-icon-gVa32i">
+          <div class="creative-design-YJXeit montserrat-normal-white-24px animate-enter47">Creative Design</div>
+          <img class="icons8-figma-384-1-YJXeit animate-enter48" src="img/icons8-figma-384-1@2x.png" />
+          <img class="icons8-canva-480-1-YJXeit animate-enter49" src="img/icons8-canva-480-1@2x.png" />
+        </div>
+      </div>
+    </div>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+  </body>
+</html>

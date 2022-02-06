@@ -1,0 +1,944 @@
+/* screen - works-page-desktop */
+
+.works-page-desktop {
+    background-color: var(--outer-space);
+    height: 1489px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
+    width: 1024px;
+    min-height: 100vh;
+}
+
+.works-page-desktop .rectangle-1-RIPBGr {
+  background-color: var(--west-side);
+  box-shadow: 0px 4px 4px #00000040;
+  height: 1499px;
+  left: -5px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -5px;
+  width: 288px;
+}
+
+.works-page-desktop .back-to-homepage-RIPBGr {
+  background-color: transparent;
+  height: auto;
+  left: -19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 2934px;
+  width: 481px;
+}
+
+.works-page-desktop .works-RIPBGr {
+  -webkit-text-stroke: 2px var(--west-side);
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 315px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 40px;
+  transform: translate(-25px, 0);
+  width: 494px;
+}
+
+.works-page-desktop .works-RIPBGr.animate-enter50 {
+  animation: animate-enter50-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter50-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .about-RIPBGr {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: auto;
+  left: 49px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 39px;
+  transform: translate(-25px, 0);
+  width: 185px;
+}
+
+.works-page-desktop .about-RIPBGr.animate-enter51 {
+  animation: animate-enter51-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter51-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .skills-RIPBGr {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: auto;
+  left: 47px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 101px;
+  transform: translate(-25px, 0);
+  width: 185px;
+}
+
+.works-page-desktop .skills-RIPBGr.animate-enter52 {
+  animation: animate-enter52-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter52-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .works-G5zOfa {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: -24px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 166px;
+  transform: translate(-25px, 0);
+  width: 326px;
+}
+
+.works-page-desktop .works-G5zOfa.animate-enter53 {
+  animation: animate-enter53-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter53-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .rectangle-2-RIPBGr {
+  background-color: var(--black-2);
+  border-radius: 50px;
+  display: block;
+  height: 55px;
+  left: 20px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  top: 161px;
+  transform: translate(-25px, 0);
+  width: 242px;
+}
+
+.works-page-desktop .rectangle-2-RIPBGr.animate-enter54 {
+  animation: animate-enter54-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter54-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .contact-RIPBGr {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: auto;
+  left: 47px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 234px;
+  transform: translate(-25px, 0);
+  width: 189px;
+}
+
+.works-page-desktop .contact-RIPBGr.animate-enter55 {
+  animation: animate-enter55-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter55-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .back-to-homepage-G5zOfa {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: auto;
+  left: 35px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 1440px;
+  transform: translate(-25px, 0);
+  width: 208px;
+}
+
+.works-page-desktop .back-to-homepage-G5zOfa.animate-enter56 {
+  animation: animate-enter56-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter56-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .projects-RIPBGr {
+  -webkit-text-stroke: 2px var(--west-side);
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 315px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 134px;
+  transform: translate(-25px, 0);
+  width: 494px;
+}
+
+.works-page-desktop .projects-RIPBGr.animate-enter57 {
+  animation: animate-enter57-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter57-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .gmeet_extension-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: 248px;
+  left: 323px;
+  opacity: 0;
+  position: absolute;
+  top: 230px;
+  transform: translate(-25px, 0);
+  width: 942px;
+}
+
+.works-page-desktop .gmeet_extension-RIPBGr.animate-enter61 {
+  animation: animate-enter61-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter61-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .gmeet-turn-off-cam-u-zt59k1 {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 96px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0px;
+  transform: translate(-25px, 0);
+  width: 842px;
+}
+
+.works-page-desktop .gmeet-turn-off-cam-u-zt59k1.animate-enter58 {
+  animation: animate-enter58-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter58-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .browser-extension-fo-zt59k1 {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 96px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 67px;
+  transform: translate(-25px, 0);
+  width: 412px;
+}
+
+.works-page-desktop .browser-extension-fo-zt59k1.animate-enter59 {
+  animation: animate-enter59-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter59-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .logo-1-zt59k1 {
+  background-color: transparent;
+  display: block;
+  height: 57px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 38px;
+  transform: translate(-25px, 0);
+  width: 64px;
+}
+
+.works-page-desktop .logo-1-zt59k1.animate-enter60 {
+  animation: animate-enter60-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter60-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .idle__000-1-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: 64px;
+  left: 346px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 451px;
+  transform: translate(-25px, 0);
+  width: 28px;
+}
+
+.works-page-desktop .idle__000-1-RIPBGr.animate-enter62 {
+  animation: animate-enter62-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter62-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .the-last-ninja-nov-2021-present-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 424px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 418px;
+  transform: translate(-25px, 0);
+  width: 747px;
+}
+
+.works-page-desktop .the-last-ninja-nov-2021-present-RIPBGr.animate-enter63 {
+  animation: animate-enter63-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter63-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .a-2-d-platformer-gam-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 424px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 496px;
+  transform: translate(-25px, 0);
+  width: 359px;
+}
+
+.works-page-desktop .a-2-d-platformer-gam-RIPBGr.animate-enter64 {
+  animation: animate-enter64-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter64-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .grade-management-sys-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 419px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 773px;
+  transform: translate(-25px, 0);
+  width: 842px;
+}
+
+.works-page-desktop .grade-management-sys-RIPBGr.animate-enter65 {
+  animation: animate-enter65-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter65-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .an-app-to-store-stud-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 419px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 852px;
+  transform: translate(-25px, 0);
+  width: 461px;
+}
+
+.works-page-desktop .an-app-to-store-stud-RIPBGr.animate-enter66 {
+  animation: animate-enter66-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter66-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .icons8-grade-64-1-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: 62px;
+  left: 323px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 804px;
+  transform: translate(-25px, 0);
+  width: 64px;
+}
+
+.works-page-desktop .icons8-grade-64-1-RIPBGr.animate-enter67 {
+  animation: animate-enter67-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter67-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .experience-RIPBGr {
+  -webkit-text-stroke: 2px var(--west-side);
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 321px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 977px;
+  transform: translate(-25px, 0);
+  width: 494px;
+}
+
+.works-page-desktop .experience-RIPBGr.animate-enter68 {
+  animation: animate-enter68-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter68-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .image-2-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: 61px;
+  left: 323px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 1073px;
+  transform: translate(-25px, 0);
+  width: 60px;
+}
+
+.works-page-desktop .image-2-RIPBGr.animate-enter69 {
+  animation: animate-enter69-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter69-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .crew-member-pattarai-nov-2021-present-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 419px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 1080px;
+  transform: translate(-25px, 0);
+  width: 842px;
+}
+
+.works-page-desktop .crew-member-pattarai-nov-2021-present-RIPBGr.animate-enter70 {
+  animation: animate-enter70-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter70-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .screenshot_20220128-011528_-instagram-1-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: 70px;
+  left: 328px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 1179px;
+  transform: translate(-25px, 0);
+  width: 50px;
+}
+
+.works-page-desktop .screenshot_20220128-011528_-instagram-1-RIPBGr.animate-enter71 {
+  animation: animate-enter71-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter71-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .conducted-a-workshop-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 419px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 1179px;
+  transform: translate(-25px, 0);
+  width: 451px;
+}
+
+.works-page-desktop .conducted-a-workshop-RIPBGr.animate-enter72 {
+  animation: animate-enter72-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter72-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .image-1-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: 72px;
+  left: 328px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 1311px;
+  transform: translate(-25px, 0);
+  width: 50px;
+}
+
+.works-page-desktop .image-1-RIPBGr.animate-enter73 {
+  animation: animate-enter73-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter73-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .content-writer-techczar-apr-2021-present-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 410px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 1316px;
+  transform: translate(-25px, 0);
+  width: 842px;
+}
+
+.works-page-desktop .content-writer-techczar-apr-2021-present-RIPBGr.animate-enter74 {
+  animation: animate-enter74-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter74-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .x10f22ce206c432dc302a-RIPBGr {
+  background-color: transparent;
+  height: 402px;
+  left: 586px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 433px;
+  width: 438px;
+}
+
+.works-page-desktop .medi-assist-apr-2021-dec-2021-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 424px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 582px;
+  transform: translate(-25px, 0);
+  width: 842px;
+}
+
+.works-page-desktop .medi-assist-apr-2021-dec-2021-RIPBGr.animate-enter75 {
+  animation: animate-enter75-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter75-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .an-android-app-with-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 424px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 660px;
+  transform: translate(-25px, 0);
+  width: 361px;
+}
+
+.works-page-desktop .an-android-app-with-RIPBGr.animate-enter76 {
+  animation: animate-enter76-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter76-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.works-page-desktop .medi-assist-1-RIPBGr {
+  background-color: transparent;
+  display: block;
+  height: 64px;
+  left: 328px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 599px;
+  transform: translate(-25px, 0);
+  width: 64px;
+}
+
+.works-page-desktop .medi-assist-1-RIPBGr.animate-enter77 {
+  animation: animate-enter77-frames 1.00s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes animate-enter77-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}

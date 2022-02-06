@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1024, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/contact-page-desktop.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+      <title>GL.</title>
+  </head>
+  <body style="margin: 0; background: #2f303a">
+    <input type="hidden" id="anPageName" name="page" value="contact-page-desktop" />
+    <div class="container-center-horizontal">
+        <div class="contact-page-desktop screen">
+            <div class="orange-20i9Bv border-5px-west-side"></div>
+            <a href="about-page-desktop.html"><div class="about-20i9Bv montserrat-medium-outer-space-36px animate-enter11">About</div> </a><a href="skills-page-desktop.html"><div class="skills-20i9Bv montserrat-medium-outer-space-36px animate-enter12">Skills</div> </a><a href="works-page-desktop.html">
+                <div class="works-20i9Bv montserrat-medium-outer-space-36px animate-enter13">Works</div>
+            </a>
+            <div class="contact-20i9Bv montserrat-medium-outer-space-36px animate-enter14">Contact</div>
+            <a href="homepage-desktop.html">
+                <div class="back-to-homepage-20i9Bv montserrat-medium-outer-space-18px animate-enter15">
+                    Back to Homepage
+                </div>
+            </a>
+            <div class="rectangle-3-20i9Bv"></div>
+            <div class="wanna-get-in-touch-20i9Bv montserrat-normal-white-48px animate-enter16">Wanna get in touch ?</div>
+            <img class="h64bekx6h1hicgwl7986-20i9Bv animate-enter17"
+                 src="img/h64bekx6h1hicgwl7986x3ad7bfe367770822dab711e0e24cc643123c970ca1a@2x.png" />
+            <a href="https://www.linkedin.com/in/geoffrey-lazer-09b0901b2/">
+                <img class="icons8-linkedin-240-1-20i9Bv animate-enter18" src="img/icons8-linkedin-240-1@2x.png" />
+            </a>
+            <a href="http://open.spotify.com/user/qs1ky7g4mws2bom7o0n0kq44m">
+                <img class="icons8-spotify-240-1-20i9Bv animate-enter19" src="img/icons8-spotify-240-1@2x.png" />
+            </a>
+            <a href="https://t.me/geoffreylazer">
+                <img class="icons8-telegram-app-480-1-20i9Bv animate-enter20" src="img/icons8-telegram-app-480-1@2x.png" />
+            </a>
+            <a href="geoffreylazer.24cs@licet.ac.in">
+                <img class="icons8-gmail-512-1-20i9Bv animate-enter21" src="img/icons8-gmail-512-1@2x.png" />
+            </a>
+            <a>
+                <img class="icons8-twitter-480-1-1-20i9Bv animate-enter22" src="img/icons8-twitter-480--1--1@2x.png" />
+            </a>
+            <a href="https://www.instagram.com/geoffrey.allen.lazer/">
+                <img class="icons8-instagram-240-1-20i9Bv animate-enter23" src="img/icons8-instagram-240-1@2x.png" />
+            </a>
+            <a href="https://wa.me/918107309686">
+                <img class="icons8-whatsapp-480-1-20i9Bv animate-enter24" src="img/icons8-whatsapp-480-1@2x.png" />
+            </a>
+            <a href="https://github.com/GeoffreyLazer">
+                <img class="icons8-github-500-1-20i9Bv animate-enter25" src="img/icons8-github-500-1@2x.png" />
+            </a>
+        </div>
+    </div>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+  </body>
+</html>
